@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,400&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #1f2937;
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  padding: 0 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  background-color: #1f2937;
+  width: 70vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.header-list {
+  display: flex;
+  padding: 15px 0 0 15px;
+}
+
+.link-text {
+  color: #e5e7eb;
+  font-size: 18px;
+  margin: 15px;
+}
+
+.hero-container {
+  width: 70vw;
+  padding: 20vh 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-left,
+.hero-right {
+  flex: 1;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 15px;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: 700;
+  padding: 15px 0;
+  color: #f9faf8;
+}
+
+.hero-second-text {
+  font-size: 18px;
+  padding: 15px 0;
+  color: #e5e7eb;
+}
+
+.hero-button {
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  margin: 15px 0;
+  padding: 8px 30px;
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+
+.hero-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.fox-image {
+  max-width: 100%;
+}
+
+.image-source {
+  padding: 15px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
