@@ -115,6 +115,7 @@ a {
 }
 
 .image-source {
+  display: flex;
   padding: 15px;
   color: #e5e7eb;
   text-decoration: none;
@@ -224,8 +225,8 @@ a {
 }
 
 .cta-wrapper {
-  margin: 8% 10%;
-  padding: 5% 8%;
+  margin: 6% 20%;
+  padding: 4% 10%;
   border-radius: 8px;
   color: #f9faf8;
   background-color: #3882f6;
@@ -255,4 +256,13 @@ a {
   border-color: #f9faf8;
   border-style: solid;
   padding: 8px 35px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  padding: 3%;
 }
