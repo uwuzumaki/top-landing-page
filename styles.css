@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,400&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,100;1,400&display=swap");
 *,
 html,
 body {
@@ -196,4 +195,64 @@ a {
   display: flex;
   text-align: center;
   padding: 15px;
+}
+
+.quote-container {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-wrapper {
+  font-size: 36px;
+  margin: 8% 25% 2% 25%;
+  color: #1f2937;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.author-wrapper {
+  width: 40%;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 8%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.cta-wrapper {
+  margin: 8% 10%;
+  padding: 5% 8%;
+  border-radius: 8px;
+  color: #f9faf8;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-left {
+  flex: 3;
+}
+
+.cta-left-top {
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.cta-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.cta-right-button {
+  border-width: 2px;
+  border-radius: 8px;
+  border-color: #f9faf8;
+  border-style: solid;
+  padding: 8px 35px;
 }
